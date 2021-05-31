@@ -10,6 +10,8 @@ class TestCase(unittest.TestCase):
         self.assertEqual(ly.leapYear(3), False)
     def test_three(self):
         self.assertEqual(ly.leapYear(2000), False)
+    def test_four(self):
+        self.assertEqual(ly.leapYear(300), False)
 
 
 if __name__ == "__main__":
