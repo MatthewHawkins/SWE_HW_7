@@ -1,2 +1,3 @@
 def leapYear(year):
-    pass
+    if(year % 400 == 0):
+        return True
